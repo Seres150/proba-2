@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saját Weboldal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Üdvözlünk a weboldalamon! én Seres Attila vagyok</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Rólam</h2>
+            <p>Ez az első weboldalam, amelyet Mac-en építek fel.</p>
+            <!-- Kép hozzáadása -->
+            <img src="kep.jpg" alt= "" width="300">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Saját Weboldal</p>
+    </footer>
+</body>
+</html>
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}<section id="gallery">
+    <h2>Galéria</h2>
+    <p>Itt találhatók a kedvenc képeim.</p>
+    <img src="virágos.jpg" alt="Virágos kép">
+    <img src="masikkep.jpg" alt="Másik kép">
+</section>
+<section id="contact">
+    <h2>Kapcsolat</h2>
+    <form>
+        <label for="name">Név:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Üzenet:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Küldés</button>
+    </form>
+</section>
